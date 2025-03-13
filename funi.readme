@@ -1,0 +1,40 @@
+
+
+Longhorn Days README
+
+Welcome to Longhorn Days, where Windows XP goes through its rebellious teen phase and tries (but mostly fails) to be futuristic. This document will try to help you, but let’s be honest—you’re installing an unstable OS concept from 2003. You already know what you’re getting into.
+
+.ISO Installation
+
+So, you’re installing Longhorn Days? Buckle up.
+	•	VMware Users: Set compatibility to 6.5/7. Anything newer might cause Longhorn to throw a tantrum.
+	•	Drivers: Install them unless you enjoy staring at a 640x480 screen that looks like it was made in MS Paint.
+	•	Time Sync Fix:
+Longhorn loves messing with your system clock. If you don’t want it traveling back to 2003 every time you reboot, add this magic spell to your .vmx file:
+
+tools.syncTime = "FALSE"
+time.synchronize.continue = "FALSE"
+time.synchronize.restore = "FALSE"
+time.synchronize.resume.disk = "FALSE"
+time.synchronize.shrink = "FALSE"
+time.synchronize.tools.startup = "FALSE"
+time.synchronize.tools.enable = "FALSE"
+time.synchronize.resume.host = "FALSE"
+
+This tells VMware, “No, Longhorn. You don’t control time.”
+
+Transformation Pack Installation
+	•	Best Builds: If you want the full experience, install this on builds 4000 to 4093.
+	•	Experimental Builds (aka Bad Ideas™):
+You can try this on 37xx builds, but at that point, you might as well just install Windows ME and see which one crashes first.
+
+Bugs (aka “Features” in Beta Software)
+	•	Vanishing UI Elements: Sometimes menus disappear. Maybe they got tired. Maybe they’re on strike. Who knows?
+	•	Longhorn’s Attention Span: The system may randomly stop responding because it suddenly remembers it’s an unfinished product from 2003.
+	•	Graphical Glitches: If your taskbar starts looking like modern art, congratulations! You’ve unlocked “Early 2000s Abstract UI Design Mode.”
+	•	Performance Issues: If things get laggy, just remind yourself that Longhorn was trying to do Aero effects with 2003 hardware. It’s basically a miracle it runs at all.
+	•	Running on Real Hardware: Oh, you absolute madman. Good luck. Please notify us from the afterlife if your hard drive survives.
+
+Final Thoughts
+
+Welcome to Longhorn Days. It’s weird, it’s buggy, it’s beautiful. Enjoy the nostalgia trip, and remember: it’s not broken, it’s just authentic beta software.
