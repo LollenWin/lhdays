@@ -10,7 +10,7 @@ So, you’re installing Longhorn Days? Buckle up.
 	•	VMware Users: Set compatibility to 6.5/7. Anything newer might cause Longhorn to throw a tantrum.
 	•	Drivers: Install them unless you enjoy staring at a 640x480 screen that looks like it was made in MS Paint.
 	•	Time Sync Fix:
-Longhorn loves messing with your system clock. If you don’t want it traveling back to 2003 every time you reboot, add this magic spell to your .vmx file:
+Longhorn loves messing with your system clock. If you don’t want it traveling back to the future every time you reboot, add this magic spell to your .vmx file:
 
 tools.syncTime = "FALSE"
 time.synchronize.continue = "FALSE"
